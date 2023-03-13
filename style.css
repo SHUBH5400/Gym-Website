@@ -3,7 +3,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     padding: 0px;
-    background: url('./pexels-lukas-669577.jpg')
+    background: url('./pexels-binyamin-mellish-116079.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .left{
@@ -11,6 +14,7 @@ body{
     left: 50px;
     top: 20px;
     display: inline-block;
+    color: white;
     
 }
 .left img{
@@ -35,7 +39,7 @@ body{
     font-size: 20px;
 }
 .navbar li a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 44px 23px;
     
@@ -53,8 +57,8 @@ body{
 .btn{
     font-family: 'Montserrat', sans-serif;
     margin: 0px 9px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 2px 14px;
     border: 1px solid black;
     border-radius: 10px;
@@ -66,7 +70,7 @@ body{
     background-color: rgb(63, 59, 59);
 }
 .container{
-    border: 2px solid black;
+ 
     padding: 75px;
     margin: 106px 80px;
     width: 33%;
@@ -74,15 +78,16 @@ body{
 }
 .container h1{
     text-align: center;
+    color: white;
 }
 .form-group input{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    display: block;
-    width: 500px;
+    display:block;
+    width: 400px;
     padding: 1px;
     border: 2px solid black;
-    margin:11px auto;
+    margin:10px 12px;
     font-size: 20px;
     border-radius: 8px;
 }
@@ -91,5 +96,5 @@ body{
 .container button{
     display: block;
     width: 74%;
-    margin: 18px auto;
+    margin: 18px 24px;
 }
